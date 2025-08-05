@@ -18,7 +18,7 @@ vectors = cv.fit_transform(movies['tags']).toarray()
 similarity = cosine_similarity(vectors)
 
 
-st.title("Movies recommendation model")
+st.title("Movies Recommendation Model")
 
 #dropdown for movie selection
 
